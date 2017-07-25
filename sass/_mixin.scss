@@ -1,0 +1,39 @@
+@mixin parrafo{
+	font-family:$font-family-navbar-a;
+	padding-top: 10px;
+	font-size: 16px;
+	color:$GrisTexto ;
+}
+
+@mixin titulos-import{
+	font-family: $font-family-seccion;
+	color:$GrisOscuroTitulos;
+}
+
+@mixin text-date{
+	font-family:$font-profile-editorial;
+	color:$GrisClarofecha;
+}
+
+@mixin linea-blue{
+	margin-top: 82px;
+    margin-bottom: 54px;
+    border: 0;
+    border-top: 4px solid $Azul;
+}
+
+@mixin box-shadow() {
+    -webkit-box-shadow: -1px -14px 51px -18px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px -14px 51px -18px rgba(0,0,0,0.75);
+	box-shadow: -1px -14px 51px -18px rgba(0,0,0,0.75);
+}
+
+@mixin a-zul{
+	color:$Azul;
+	font-family: $font-family-navbar-a;
+}
+
+@mixin box{
+	padding-bottom: 4px;
+    padding-top: 10px;
+}
