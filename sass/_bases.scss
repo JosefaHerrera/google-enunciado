@@ -129,6 +129,27 @@ body{
 	}
 }
 
+#section4{
+	padding-top:$pd-top;
+	padding-bottom:$pd-bottom;
+	@include lista-footer();
+	.m-top{
+		margin-top: 36px;
+		padding-left: 91px;
+		cursor: pointer;
+	}
+	.m-left{
+		padding-left: 83px;
+		padding-right: 0px;
+		cursor: pointer;
+	}
+	.p-left{
+		padding-left: 219px;
+		padding-right: 0px;
+		cursor: pointer;
+	}
+}
+
 
 #footer{
 	@include box-shadow();
@@ -139,6 +160,10 @@ body{
     color: $GrisTexto ;
     img{
     	width: 6%;
+    	cursor: pointer;
+    }
+    p{
+    	cursor: pointer;
     }
 }
 
